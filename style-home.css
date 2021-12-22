@@ -1,0 +1,51 @@
+body{
+
+}
+#banner{
+    width: 100%;/* 100% de largura da pag*/
+}
+
+.principal{
+    background: #CCCCCC;/* A cor da Classe principal*/
+    padding: 30px; /* Espaçamento interno para tds os lados*/ 
+}
+
+
+.titulos-centalizado{
+    text-align: center;/* Alinha o texto para o meio */
+}
+
+.titulo-esqueda{
+    padding-left: 20px;/* Espaçamento interno para tds os lados*/
+}
+p{
+    text-align: center;/* Alinha o texto para o meio */
+}
+
+
+#missao{
+    font-size: 20px; /* Tamano da fonte*/
+}
+em strong{
+    color: red;/* A cor da fonte que está em(dentro Strong) */
+}
+.itens{
+    font-style: italic;/* Modelo em italico */
+    font-size: 20px; /* Tamano da fonte*/
+}
+
+.beneficios{
+    background: #FFFFFF;/*cor da classe beneficios */
+    padding: 10px;/* Espaçamento interno para tds os lados*/
+}
+
+ul{
+    display: inline-block;/*deixar o Ul como um bloco*/
+    vertical-align: top; /*Alinha para o topo*/
+    width: 20%; /* 20% de largura da pag*/
+    margin-right: 15%; /* Espaçmento externo para a direita de 20%*/
+}
+
+.imgbeneficios{
+    width: 50%; /* 50% de largura da pag*/
+}

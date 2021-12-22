@@ -1,0 +1,285 @@
+body{
+    font-family: 'Montserrat', sans-serif;/* font referenciada do site, todo o corpo tera essa fonte*/
+    
+}
+
+header{
+    background:black;
+    padding: 20px 0; /* 0 px pra esquerda e direita e 20 pra cima e baixo*/
+}
+.caixa{
+    position: relative;/* a posição da caixa ela vai ser relativa que pode ser alterada na caixa*/
+    width: 940px;
+    margin: 0 auto; /* a margem de cima pra baixo 0 e ajustavel */
+}
+.logo{
+    width: 25%;
+    border-radius: 50px;
+}
+.main{
+    position: relative;
+    left: 20%;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0; /* 0% a direita */
+}
+
+nav li {
+    display: inline; /* deixa tds na mesmaLinha*/
+    margin: 0 0 0 15px ;/* Espaçamento topo direita baixo esquerda*/
+}
+nav a {
+    text-transform: uppercase;/* tranforma as letras em maiusculas*/
+    color:white;
+    font-weight: bold; /* peso da fonte negrito*/
+    font-size: 22px;/* tamanho da fonte*/
+    text-decoration: none;/* quando clicar o texto nao fica decorado*/
+}
+nav a:hover {/* quando o mouse está em cima dos links ou na navegação*/
+    font-size: 23px;
+    color: #C78C19;
+    text-decoration: underline;/* ficará sublinhado quando passar o mouse*/
+}
+
+.produtos li:hover{
+    color:#C78C19;
+    text-decoration: underline;
+    border-color:#C78C19;
+}
+
+.produtos li:active{ /* quando o mouse está clicado nos links ou na navegação*/
+    border-color: green;
+}
+
+.produtos li:hover h2{/* quando o mouse estiver por cima do li ele altera o h2*/
+    font-size:30px;
+}
+
+.produtos{
+    width: 940px;/* largura da pag*/
+    margin: 0 auto;/* 0 de baixo para cima, e lateral automatico */
+    padding: 40px 0;/* alinhamento interno 50px pra ciam e pra baixo e 0 para os lados*/
+    
+}
+.produtos li {
+    display: inline-block;/* deixa os itens lado a lado*/
+    text-align: center;/* alinhou ao centro as letras*/
+    width: 30%;/* cada um terá 30% da distancia */
+    vertical-align: top;/* alinhamento vertical no topo*/
+    /*background: #CCCCCC; cor interna de cada li*/
+    margin: 0 1.5%;/* 0 pra cima e pra baixo e 1.5% pros lados*/
+    padding: 50px 20px;/* 30 de px pra cima e baixo e 20 px pra cada lado*/
+    box-sizing: border-box;/* deixa tudo alinhado com os 30% reto na horizontal*/
+    /*border-color: black;/* A cor da Borda*/
+    /*border-width: 2px;/* a borda de 2 px de largura*/
+    /*border-style: solid;/* Estilo Solido da borda*/
+    border: 2px solid black;/* A borda universal 2 px solida e preta*/
+    border-radius: 10px; /* deixa as bordas arredondadas*/
+}
+.produtos h2{
+    font-size: 20px;/* tamanho da fonte*/
+    font-weight: bold;/* fonte em negrito*/
+}
+.produto-descricao {
+    font-size: 18px;
+    
+}
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;/* ou margin top 10px*/
+}
+
+footer{
+    align-items: center;;
+    text-align: center;
+    padding: 50px 300px; 
+    background-color: #888888;
+    display:inline-flex;
+    
+}
+.endereco{
+    padding-left: 300px;
+    flex-direction:column;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.footerimg{
+    width: 20%;
+    border-radius: 100%;
+}
+.copyrigth{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block; /* para ficar alinhado*/
+    margin: 0 0 20px;
+    padding: 10px 25px;/* o quadrado do input vai ficar maior 10px pra cima e baixo e 25 px pros lados*/
+    width: 50%;/* A largura da Caixa ficará com 50% da pag*/
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;/* o botao de enviar vai ficar com 40% da pag*/
+    padding: 15px 0;/* o botao vai ficar 15 px pra cima e pra baixo e 0 pros lados*/
+    background: orange;/*cor do botao*/
+    color: white;/* cor do texto*/
+    font-size: 50px;
+    font-weight: bold;/* negrito*/
+    border: none;/* As bords nao são padrão*/
+    border-radius: 10px;/* Bordas arredondadas*/
+    transition: 0.5s all;
+    cursor:pointer;
+}
+         
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.1);/* a tranformação é de 20% na escala do botao*/
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;/* borda da tabela*/
+    font-size: 20px;
+    padding: 8px 15px;
+}
+.imagensb{
+    display:inline-flex;
+}
+.banner1{
+    width: 691px; /* 100% da Largura da Pag*/
+    height: 600px;
+    
+}
+.banner2{
+    width: 691px; /* 100% da Largura da Pag*/
+    height: 600px;
+}
+
+.titulos-principal{
+    text-align: center;
+    font-size: 2em;/* em é o tamanho da fonte, então ficou 2 x o tamanho da fonte*/
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(0,0,0, 0.5);/* preto com opacidade de 0.3*/
+}
+.titulos-principal:first-letter{
+    font-weight: bold;
+
+}
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;/*padrao da pag a largura*/
+    margin: 0 auto; /* par se adequar no meio*/
+}
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;/* deixa a imagem a esquerda antes das letras*/
+    margin:  0 20px 20px 0; 
+}   
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.mapa-conteudo{
+    width: 940px;/*padrao da pag a largura*/
+    margin: 0 auto; /* par se adequar no meio*/
+}
+.mapa p, h3{
+    margin: 0 0 20px;
+    text-align: center;
+}
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+    
+}
+.conteudo-beneficios{
+    width: 640px;/* largura de 640px e margem automatica pros lados*/
+    margin:0 auto;
+}
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;/* As letras se alinham na parte de cima*/
+}
+.itens {
+    line-height: 1.5;/* O espaçamento entre duas linhas é 1.5*/
+}
+.itens:before{
+    content: "★";
+}
+.img-beneficios {
+    width: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px black;
+}
+.img-beneficios:hover {
+    opacity: 0.3;
+}
+/* Primeiro elemento em negrito*/
+.itens:first-child{
+    font-weight: bold;
+}
+/* deixar o video alinhado no meio*/
+.video{
+    width: 760px;
+    margin: 2em auto;/* pra cima e baixo auto 1 em e automatico pras laterais*/
+}
+/* Adaptando para celular*/
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+    }
+}
